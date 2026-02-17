@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx-test
-  name: nginx-test
+  name: sample-test
   namespace: test-nginx
 spec:
   progressDeadlineSeconds: 600
