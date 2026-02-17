@@ -4,7 +4,7 @@ metadata:
   labels:
     app: nginx-test
   name: nginx-test
-  namespace: sample
+  namespace: test-nginx
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
